@@ -14,36 +14,36 @@ const Body = () => {
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room1} alt="Room 1" className="img-fluid" />
             <h5>Active 1</h5>
-            <p>Chào đón tân học sinh lớp 10</p>
+            <h6>Chào đón tân học sinh lớp 10</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+              Tìm hiểu thêm
             </button>
           </div>
 
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room2} alt="Room 2" className="img-fluid" />
             <h5>Active 2</h5>
-            <p>Chia lớp theo ban cho học sinh lớp 12</p>
+            <h6>Chia lớp theo ban cho học sinh lớp 12</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+              Tìm hiểu thêm
             </button>
           </div>
 
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room3} alt="Room 3" className="img-fluid" />
             <h5>Active 3</h5>
-            <p>Cảnh báo mùa mưa bão</p>
+            <h6>Cảnh báo mùa mưa bão</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+              Tìm hiểu thêm
             </button>
           </div>
 
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room4} alt="Room 4" className="img-fluid" />
             <h5>Active 4</h5>
-            <p>Lịch học các lớp phụ đạo</p>
+            <h6>Lịch học các lớp phụ đạo</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+              Tìm hiểu thêm
             </button>
           </div>
         </div>
@@ -55,38 +55,39 @@ const Body = () => {
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room1} alt="Shared Room 1" className="img-fluid" />
             <h5>Event 1</h5>
-            <p>Hội khoẻ phù đổng</p>
+            <h6>Hội khoẻ phù đổng</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+            Tìm hiểu thêm
             </button>
           </div>
 
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room2} alt="Shared Room 2" className="img-fluid" />
             <h5>Event 2</h5>
-            <p>Chào mừng ngày Phụ nữ Việt Nam (20-10)</p>
+            <h6>Chào mừng ngày Phụ nữ Việt Nam (20-10)</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+            Tìm hiểu thêm
             </button>
           </div>
 
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room3} alt="Shared Room 3" className="img-fluid" />
             <h5>Event 3</h5>
-            <p>Chào mừng ngày Nhà giáo Việt Nam (20-11)</p>
+            <h6>Chào mừng ngày Nhà giáo Việt Nam (20-11)</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+              Tìm hiểu thêm
             </button>
           </div>
 
           <div className="col-md-3 col-sm-12 room-card">
             <img src={room4} alt="Shared Room 4" className="img-fluid" />
-            <h5>Event 4</h5>
-            <p>Lễ tôn vinh học sinh xuất xắc</p>
+            <h6>Event 4</h6>
+            <h6>Lễ tôn vinh học sinh xuất xắc</h6>
             <button className="btn btn-primary" type="submit">
-              Click
+            Tìm hiểu thêm
             </button>
           </div>
+
         </div>
       </section>
       </section>

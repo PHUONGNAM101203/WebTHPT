@@ -18,7 +18,15 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=239029875760778&autoLogAppEvents=1"></script>
+    
+    <script>
+      // Add your React app script here
+      const script = document.createElement('script');
+      script.src = '../src/index.js'; // Update with the correct path to your bundle.js
+      script.async = true;
+      document.getElementById('root').appendChild(script);
+    </script>
+    
 
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -38,9 +46,8 @@
   </head>
   <body>
     
-
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

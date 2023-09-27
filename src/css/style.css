@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#333;
+  background-color:rgba(9, 119, 139, 0.92);
   color: whitesmoke;
   padding: 10px!important;
   box-sizing: border-box;
@@ -33,7 +33,7 @@ body {
 
 .navbar a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgba(9, 119, 139, 0.92);
 }
 
 /* Add this CSS to your style.css file */
@@ -41,7 +41,7 @@ body {
 /* Style for the dropdown button */
 .dropdown button {
   background-color: #f8f9fa;
-  color: #212529;
+  color: rgba(9, 119, 139, 0.92);
   border: 1px solid #ced4da;
 }
 
@@ -62,8 +62,8 @@ body {
   display: block;
 }
 
-.dropdown-menu a {
-  color: #212529;
+.dropdown-menu a {  
+  color: rgba(9, 119, 139, 0.92);
   padding: 10px;
   text-decoration: none;
   display: block;
@@ -75,13 +75,15 @@ body {
 
 .logo {
   display: flex;
-  align-items: center; /* Canh logo giữa theo chiều dọc */
+  align-items: center;
 }
 
 .logo img {
-  width: 80%; /* Điều chỉnh kích thước logo theo nhu cầu */
+  width: 80%; 
   height: auto;
-  margin-right: 10px; /* Khoảng cách giữa logo và nội dung bên cạnh */
+  margin-right: 10px;
+  border:2px solid rgba(9, 119, 139, 0.92);
+  border-radius: 50%; 
 }
 
 .carousel-item img {
@@ -97,6 +99,11 @@ body {
 
 .carousel-caption h5 {
   font-size: 24px; /* Adjust the font size of the caption */
+}
+.btn-primary {
+  color: #fff;
+  background-color: rgba(9, 119, 139, 0.92)!important ;
+  border-color: rgba(9, 119, 139, 0.92);
 }
 
 
@@ -157,8 +164,24 @@ body {
   justify-content: center;
 }
 
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 40%!important;
+    max-width: 40%!important;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
 footer {
-  background-color:#333;
+  background-color:rgba(9, 119, 139, 0.92);
   color: whitesmoke;
   padding: 20px;
 }

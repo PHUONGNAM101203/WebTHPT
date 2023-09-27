@@ -64,7 +64,7 @@ const Navbar = () => {
 
       <div className="dropdown">
         <button
-          className="btn btn-secondary dropdown-toggle"
+          className="btn btn-secondary dropdown-toggle" 
           type="button"
           onClick={toggleDropdown2}
         >

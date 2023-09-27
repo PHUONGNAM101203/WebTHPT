@@ -18,35 +18,30 @@ const Footer = () => {
           </div>
 
           <div className="footer-section col-md-6 col-sm-12">
-            <h3>Liên hệ</h3>
+            <h3>Contact</h3>
             <p>Email: thptnguyentraidng01@gmail.com</p>
             <p>Social Media:</p>
             
-            {/* Logo Facebook */}
             <span>
               <i className="fa fa-facebook"></i>
             </span>
             
-            {/* Logo Insta */}
-            <span class="logo-footer">
+            <span className="logo-footer">
               <i className="fa fa-instagram"></i>
             </span>
 
-            {/* Logo Gmail */}
-            <span class="logo-footer">
+            <span className="logo-footer">
               <i className="fa fa-envelope"></i>
             </span>
 
-            {/* Logo Twitter */}
-            <span class="logo-footer">
+            <span className="logo-footer">
               <i className="fa fa-twitter"></i>
             </span>
           </div>
-          {/* Add more footer sections as needed */}
         </div>
       </div>
       <div className="footer-bottom">
-           TRƯỜNG THPT NGUYỄN TRÃI - ĐÀ NẴNG
+        &copy; {new Date().getFullYear()} TRƯỜNG THPT NGUYỄN TRÃI - ĐÀ NẴNG
       </div>
     </footer>
   );

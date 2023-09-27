@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage":" https://wed201code.github.io/WebTHPT/",
+  "homepage": "https://wed201code.github.io/WebTHPT/",
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -23,15 +23,16 @@
     "react-slick": "^0.29.0",
     "react-social-login-buttons": "^3.9.1",
     "reactjs-social-login": "^2.6.3",
+    "reactstrap": "^9.2.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
