@@ -1,19 +1,19 @@
-import React, {Component} from 'react';
-import { Navbar, NavbarBrand } from './reactstrap';
+import React from 'react';
+import Navbar from './Front-end/Navbar';
+import Slider from './Front-end/Slider';
+import Body from './Front-end/Body';
+import Footer from './Front-end/Footer';
 import './bootstrap/dist/css/bootstrap.min.css';
 
-class App extends Component {
-  render() {
+function App () {
     return (
       <div className="App">
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
-          </div>
-        </Navbar>
+        <Navbar/>
+        <Slider/>
+        <Body/>
+        <Footer/>
       </div>
     );
-  }
 }
 
 export default App;

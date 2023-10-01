@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/index.css';
-import App from './App';
-import { Navbar, NavbarBrand } from './reactstrap';
+
+// import App from './App';
+// import Counter from './Counter';
+// import HelloAsClass from './HelloAsClass';
+// import HelloASFunction from './HelloAsFunction';
+import Menu from './MenuContainer';
+
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar/>
-    <App />
-    <NavbarBrand/>
+    {/* <Counter/> */}
+    {/* <App/> */}
+    {/* <HelloAsClass who="Nam" address="Da Nang"/>
+    <br/><HelloASFunction a="5" b="10"/> */}
+    <Menu/>
+
 
   </React.StrictMode>
 );
